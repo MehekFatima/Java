@@ -6,7 +6,7 @@ public class FactorialFunc
         if (n<0)
         {
           System.out.println("INVALID NUMBER");
-          return;
+          return 1;
         }
         for(int i=n;i>=1;i--){
             fact = fact * i;
