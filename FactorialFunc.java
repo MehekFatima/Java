@@ -3,6 +3,11 @@ public class FactorialFunc
 {
     public static int FactorialCal(int n){
         int fact = 1;
+        if (n<0)
+        {
+          System.out.println("INVALID NUMBER");
+          return;
+        }
         for(int i=n;i>=1;i--){
             fact = fact * i;
         }
