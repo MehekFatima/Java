@@ -16,14 +16,13 @@ public class SortIns {
 
         //sort
         for(int i = 1;i<n;i++){
-            int t = num[i];
-            int j=i-1;
-                while(j>=0 && num[j]>t){
-                    num[j+1] = num[j];
+            int j=i;
+                while(j>0 && num[j-1]>num[j]{
+                   int t =num[j];
+                    num[j]= num[j-1];
+                    num[j-1] = t;
                     j--;
                 }
-
-                num[j+1] = t;
             }
         
          System.out.println("\nArray after sort........");
