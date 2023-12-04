@@ -18,9 +18,7 @@ public class RecFibo
 		System.out.println("Enter a number:");
 	    Scanner sc = new Scanner(System.in);
 	    int n = sc.nextInt();
-	    int i =0;
-	    int a =0;
-	    int b=1;
+	    int i =0,a =0,b=1;
 	    CalFibo(n,i,a,b);
 	}
 }
